@@ -27,3 +27,5 @@ services:
     build:
       dockerfile: Dockerfile
       context: ./dummy-webserver
+    ports:
+      - "3000:3000"
